@@ -32,7 +32,7 @@ func Run(renderer Renderer) error {
 
 func render(renderer Renderer) {
 	termbox.Clear(termbox.ColorDefault, termbox.ColorDefault)
-	renderer.Render(PointZero())
+	renderer.Render(Point{})
 	termbox.Flush()
 }
 

@@ -9,10 +9,3 @@ type Point struct {
 	X int
 	Y int
 }
-
-func PointZero() Point {
-	return Point{
-		X: 0,
-		Y: 0,
-	}
-}
