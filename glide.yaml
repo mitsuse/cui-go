@@ -1,2 +1,7 @@
 package: github.com/mitsuse/ui-go
-import: []
+owners:
+  - name: Tomoya Kose
+    email: tomoya@mitsuse.jp
+    homepage: https://mitsuse.jp/about/
+import:
+  - package: github.com/nsf/termbox-go

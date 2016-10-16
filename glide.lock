@@ -1,0 +1,6 @@
+hash: 8e8535b79c426eeaab320126deb03b8d37d679bedf0a44d8852b5047595097bf
+updated: 2016-10-16T18:49:51.554467364+09:00
+imports:
+- name: github.com/nsf/termbox-go
+  version: b6acae516ace002cb8105a89024544a1480655a5
+testImports: []
