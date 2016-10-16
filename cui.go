@@ -1,7 +1,7 @@
 /*
-Package "ui" provide A library for building CUI.
+Package "cui" provide A library for building CUI.
 */
-package ui
+package cui
 
 import (
 	"github.com/nsf/termbox-go"
