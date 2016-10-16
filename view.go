@@ -11,16 +11,11 @@ type View struct {
 	Point Point
 }
 
-func (view *View) Render() {
+/*
+Render view on the screen.
+
+The first argument `point` is the parent view's point.
+*/
+func (view *View) Render(point Point) {
 	// TODO: Render `view`.
-}
-
-type Size struct {
-	Width  int
-	Height int
-}
-
-type Point struct {
-	X int
-	Y int
 }

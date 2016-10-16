@@ -32,7 +32,7 @@ func Run(renderer Renderer) error {
 
 func render(renderer Renderer) {
 	termbox.Clear(termbox.ColorDefault, termbox.ColorDefault)
-	renderer.Render()
+	renderer.Render(PointZero())
 	termbox.Flush()
 }
 
@@ -40,5 +40,5 @@ func render(renderer Renderer) {
 Renderer is abstraction of view.
 */
 type Renderer interface {
-	Render()
+	Render(point Point)
 }
