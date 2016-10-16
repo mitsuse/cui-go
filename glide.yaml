@@ -1,4 +1,4 @@
-package: github.com/mitsuse/ui-go
+package: github.com/mitsuse/cui-go
 owners:
   - name: Tomoya Kose
     email: tomoya@mitsuse.jp
