@@ -1,6 +1,8 @@
-hash: 8e8535b79c426eeaab320126deb03b8d37d679bedf0a44d8852b5047595097bf
-updated: 2016-10-16T18:49:51.554467364+09:00
+hash: bb8a7607adf120f67a7127f81daaa09d2dc8bb1d72d4c36ebfae3ce61cae8028
+updated: 2016-10-16T20:42:25.196462458+09:00
 imports:
+- name: github.com/mattn/go-runewidth
+  version: 737072b4e32b7a5018b4a7125da8d12de90e8045
 - name: github.com/nsf/termbox-go
   version: b6acae516ace002cb8105a89024544a1480655a5
 testImports: []

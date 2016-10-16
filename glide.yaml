@@ -5,3 +5,4 @@ owners:
     homepage: https://mitsuse.jp/about/
 import:
   - package: github.com/nsf/termbox-go
+  - package: github.com/mattn/go-runewidth
